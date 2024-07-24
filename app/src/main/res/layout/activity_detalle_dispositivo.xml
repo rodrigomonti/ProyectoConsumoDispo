@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lg_lightgray"
+    tools:context=".RegistroDispositivo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/nav_actionbar_vertical"/>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:text="Detalle dispositivo"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_perfil"
+            android:fontFamily="@font/identidad_extrabold"
+            android:textSize="18dp"
+            android:textAllCaps="true"
+            android:textColor="@color/white">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btnVolver"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_volver"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="10dp"/>
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="575dp"
+            android:background="@drawable/btn_cardfondo2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_cardfondo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/borde_input"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo_card"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/bluetoothIv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp">
+
+        </ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            app:cardBackgroundColor="@color/lg_plomo"
+            app:cardCornerRadius="18dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="12dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_cardfondo">
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="12dp"
+                app:cardCornerRadius="18dp">
+
+                <EditText
+                    android:id="@+id/txtNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+                </EditText>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="108dp"
+                android:layout_marginStart="12dp"
+                android:text="Categoria"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_cardfondo">
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="140dp"
+                app:cardCornerRadius="18dp">
+
+                <EditText
+                    android:id="@+id/txtCategoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+                </EditText>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnConectar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_cardfondo"
+            android:backgroundTint="@null"
+            android:text="Conectar"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="430dp"/>
+
+        <Button
+            android:id="@+id/btnDesconectar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_cardfondo"
+            android:backgroundTint="@null"
+            android:text="Desconectar"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="490dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEditar"
+            android:layout_width="68dp"
+            android:layout_height="58dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="420dp"
+            android:layout_marginStart="330dp"
+            android:clickable="true"
+            android:src="@drawable/ic_edit" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEliminar"
+            android:layout_width="68dp"
+            android:layout_height="58dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="490dp"
+            android:layout_marginStart="330dp"
+            android:clickable="true"
+            android:src="@drawable/ic_delete" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lg_plomo"
+    tools:context=".Registro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/nav_actionbar_vertical"/>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:text="Registro"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_perfil"
+            android:fontFamily="@font/identidad_extrabold"
+            android:textSize="18dp"
+            android:textAllCaps="true"
+            android:textColor="@color/white">
+        </TextView>
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="575dp"
+            android:background="@drawable/btn_cardfondo2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_cardfondo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/borde_input"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo_card"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/user_perfil"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp">
+
+        </ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            app:cardBackgroundColor="@color/lg_lightgray"
+            app:cardCornerRadius="10dp">
+
+            <EditText
+                android:id="@+id/loginUsuario"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Nombre de usuario"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/btn_cardfondo2"
+                android:layout_marginTop="-190dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Nombre"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/btn_cardfondo2"
+                android:layout_marginTop="-120dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Correo elecotronico"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/btn_cardfondo2"
+                android:layout_marginTop="-50dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/loginClave"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Contraseña"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/btn_cardfondo2"
+                android:layout_marginTop="20dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/confirmarClave"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Confirmar contraseña"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/btn_cardfondo2"
+                android:layout_marginTop="90dp">
+
+            </EditText>
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/borde_input"
+                android:layout_gravity="center"
+                android:layout_marginTop="-190dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/borde_input"
+                android:layout_gravity="center"
+                android:layout_marginTop="-190dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/borde_input"
+                android:layout_gravity="center"
+                android:layout_marginTop="-120dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/borde_input"
+                android:layout_gravity="center"
+                android:layout_marginTop="-50dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/borde_input"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/borde_input"
+                android:layout_gravity="center"
+                android:layout_marginTop="90dp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnRegistro"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_cardfondo"
+                android:text="Crear cuenta"
+                android:layout_gravity="center"
+                android:layout_marginTop="160dp">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/usuarioExistente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:text="Ya tengo una cuenta?"
+                android:textColor="@color/white"
+                android:layout_gravity="center">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

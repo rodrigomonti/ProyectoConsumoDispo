@@ -1,0 +1,22 @@
+<!-- bottom_navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"/>
+    <item
+        android:id="@+id/perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Perfil"
+        android:icon="@drawable/icono_usuario" />
+    <item
+        android:id="@+id/configuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Configuracion"
+        android:icon="@drawable/ic_config"/>
+</menu>

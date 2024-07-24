@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProjectApp</string>
+    <string name="select_category">Seleccionar categoría</string>
+    <string-array name="categorias">
+        <item>Electrodomésticos</item>
+        <item>Tecnología</item>
+        <item>Aire acondicionado</item>
+        <item>Calefacción</item>
+        <!-- Agrega más categorías según sea necesario -->
+    </string-array>
+    <string name="default_notification_channel_id">NombreDeTuCanalDeNotificaciones</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

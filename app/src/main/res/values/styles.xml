@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/lg_plomo</item>
+        <item name="colorPrimaryDark">@color/lg_lightgray</item>
+        <item name="colorAccent">@color/dark</item>
+    </style>
+
+</resources>
+
+

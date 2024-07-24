@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Botón principal -->
+    <item>
+        <shape>
+            <solid android:color="@color/gray" />
+            <stroke android:color="@color/gray" android:width="2dp"/>
+            <corners android:radius="70dp" />
+        </shape>
+    </item>
+
+    <!-- Sombra -->
+    <item android:right="1dp" android:left="1dp" android:top="1dp" android:bottom="1dp">
+        <shape>
+            <gradient
+                android:type="radial"
+                android:centerX="0"
+                android:centerY="0.5"
+                android:gradientRadius="500dp"
+                android:startColor="#337E7C7C" /> <!-- Color de inicio (transparente) -->
+            <corners android:radius="70dp" />
+        </shape>
+    </item>
+</layer-list>

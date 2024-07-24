@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lg_lightgray"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="372dp"
+            android:layout_height="78dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="8dp"
+            android:src="@drawable/btn_perfil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bienvenidaUsuario"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/identidad_extrabold"
+            android:textAllCaps="true"
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="52dp"
+            android:background="@drawable/user_perfil"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="330dp"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAgregarDispo"
+            android:layout_width="166dp"
+            android:layout_height="171dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/lg_dark"
+            app:cardCornerRadius="18dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/device_notebook"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Dispositivo"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_letras"
+                android:layout_gravity="center"
+                android:layout_marginTop="58dp">
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardConsumo"
+            android:layout_width="166dp"
+            android:layout_height="171dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="210dp"
+            app:cardBackgroundColor="@color/lg_dark"
+            app:cardCornerRadius="18dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/electric_ic"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Consumo"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_letras"
+                android:layout_gravity="center"
+                android:layout_marginTop="58dp">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAhorro"
+            android:layout_width="166dp"
+            android:layout_height="171dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/lg_dark"
+            app:cardCornerRadius="18dp"
+            app:cardUseCompatPadding="true">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="166dp"
+            android:layout_height="171dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginStart="210dp"
+            app:cardBackgroundColor="@color/lg_dark"
+            app:cardCornerRadius="18dp"
+            app:cardUseCompatPadding="true">
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="372dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="480dp"
+                android:src="@drawable/btn_perfil">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="506dp"
+                android:background="@drawable/caution_ic">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_navigation_menu" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/nav_actionbar">
+        </ImageView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

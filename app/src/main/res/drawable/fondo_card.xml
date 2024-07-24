@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Botón principal -->
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <stroke android:color="@color/white" android:width="2dp"/>
+            <corners android:radius="70dp" />
+        </shape>
+    </item>
+</layer-list>
